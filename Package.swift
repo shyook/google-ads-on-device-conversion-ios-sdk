@@ -30,12 +30,12 @@ let package = Package(
     .package(
       name: "GoogleUtilities",
       url: "https://github.com/google/GoogleUtilities.git",
-      "8.1.0" ..< "9.0.0"
+      branch: "main"
     ),
     .package(
       name: "nanopb",
       url: "https://github.com/firebase/nanopb.git",
-      "2.30910.0" ..< "2.30911.0"
+      branch: "main"
     ),
   ],
   targets: [
